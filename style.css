@@ -1,0 +1,65 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+.container {
+  width: 200px;
+  margin: 2rem;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 0 1.3rem 1rem 1.3rem;
+}
+
+.container .head-img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.container .cart-input {
+  margin-top: 0.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  text-align: center;
+  background-color: #cacaca;
+}
+
+.btn-cart {
+  background-color: #ad6060;
+  border: none;
+  width: 100%;
+  color: #ececec;
+  border-radius: 4px;
+  padding: 0.5rem 0;
+  margin: 0.4rem 0;
+}
+
+ul {
+    max-width: 100%;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul li {
+    background-color: #fdf9bc;
+    /* background-color: #333333; */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 3px;
+    color: #1f1f1f;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background 400ms;
+}
