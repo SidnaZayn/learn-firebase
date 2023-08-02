@@ -1,8 +1,8 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
 import { getDatabase, ref, push, remove, onValue } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js";
-import { appSettings } from "./db_key";
+import key from "./db_key.js";
 
-const app = initializeApp(appSettings);
+const app = initializeApp(key);
 const database = getDatabase(app);
 const carts = ref(database, "shopping-cart");
 
